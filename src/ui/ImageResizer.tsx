@@ -8,7 +8,7 @@
 
 import type { LexicalEditor } from 'lexical';
 
-import * as React from 'react';
+import React from 'react';
 import { useRef } from 'react';
 
 function clamp(value, min, max) {

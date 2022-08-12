@@ -8,7 +8,7 @@
 
 import './KatexEquationAlterer.css';
 
-import * as React from 'react';
+import React from 'react';
 import { useCallback, useState } from 'react';
 
 import Button from '../ui/Button';

@@ -28,7 +28,7 @@ import {
   useRef,
   useState,
 } from 'react';
-import * as React from 'react';
+import React from 'react';
 import { createPortal } from 'react-dom';
 import useLayoutEffect from '../shared/src/useLayoutEffect';
 

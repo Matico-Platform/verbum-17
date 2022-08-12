@@ -8,7 +8,7 @@
 
 import './EquationEditor.css';
 
-import * as React from 'react';
+import React from 'react';
 import { ChangeEvent, RefObject } from 'react';
 
 type BaseEquationEditorProps = {

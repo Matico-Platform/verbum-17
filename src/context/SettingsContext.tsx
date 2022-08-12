@@ -8,7 +8,7 @@
 
 import type { SettingName } from '../appSettings';
 
-import * as React from 'react';
+import React from 'react';
 import {
   createContext,
   useCallback,

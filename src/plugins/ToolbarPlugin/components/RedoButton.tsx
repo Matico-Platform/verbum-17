@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { useContext } from 'react';
 import ToolbarContext from '../../../context/ToolbarContext';
 import { REDO_COMMAND } from 'lexical';

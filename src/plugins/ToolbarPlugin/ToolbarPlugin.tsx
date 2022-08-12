@@ -24,7 +24,7 @@ import {
   COMMAND_PRIORITY_CRITICAL,
   SELECTION_CHANGE_COMMAND,
 } from 'lexical';
-import * as React from 'react';
+import React from 'react';
 import { useCallback, useContext, useEffect, useRef, useState } from 'react';
 import useChild from 'use-child';
 import { getSelectedNode } from '../../utils/node.util';

@@ -32,7 +32,7 @@ import {
   KEY_DELETE_COMMAND,
 } from 'lexical';
 import { Spread } from 'libdefs/globals';
-import * as React from 'react';
+import React from 'react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 import ImageResizer from '../../ui/ImageResizer';

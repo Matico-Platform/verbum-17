@@ -20,7 +20,7 @@ import {
   DecoratorBlockNode,
   SerializedDecoratorBlockNode,
 } from '@lexical/react/LexicalDecoratorBlockNode';
-import * as React from 'react';
+import React from 'react';
 
 type YouTubeComponentProps = Readonly<{
   className: Readonly<{

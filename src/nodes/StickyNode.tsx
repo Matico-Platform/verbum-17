@@ -31,7 +31,7 @@ import {
   DecoratorNode,
 } from 'lexical';
 import { Spread } from 'libdefs/globals';
-import * as React from 'react';
+import React from 'react';
 import { useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import useLayoutEffect from '../shared/src/useLayoutEffect';

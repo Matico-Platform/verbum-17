@@ -8,7 +8,7 @@
 
 import './LinkPreview.css';
 
-import * as React from 'react';
+import React from 'react';
 import { Suspense } from 'react';
 
 // Cached responses or running request promises

@@ -8,7 +8,7 @@
 
 import './Button.css';
 
-import * as React from 'react';
+import React from 'react';
 
 import joinClasses from '../utils/join-classes';
 

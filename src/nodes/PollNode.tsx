@@ -21,7 +21,7 @@ import { useCollaborationContext } from '@lexical/react/LexicalCollaborationPlug
 import { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext';
 import { $getNodeByKey, DecoratorNode } from 'lexical';
 import { Spread } from 'libdefs/globals';
-import * as React from 'react';
+import React from 'react';
 import { useMemo, useRef } from 'react';
 
 import Button from '../ui/Button';

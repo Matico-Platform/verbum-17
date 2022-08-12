@@ -9,7 +9,7 @@
 import './ColorPicker.css';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import * as React from 'react';
+import React from 'react';
 
 import DropDown from './DropDown';
 

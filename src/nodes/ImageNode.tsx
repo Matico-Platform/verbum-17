@@ -42,7 +42,7 @@ import {
   KEY_DELETE_COMMAND,
 } from 'lexical';
 import { Spread } from 'libdefs/globals';
-import * as React from 'react';
+import React from 'react';
 import { Suspense, useCallback, useEffect, useRef, useState } from 'react';
 
 import { createWebsocketProvider } from '../collaboration';

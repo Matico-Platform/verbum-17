@@ -30,7 +30,7 @@ import {
   $isRangeSelection,
   $setSelection,
 } from 'lexical';
-import * as React from 'react';
+import React from 'react';
 import { ReactPortal, useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 

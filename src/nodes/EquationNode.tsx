@@ -23,7 +23,7 @@ import {
   SELECTION_CHANGE_COMMAND,
 } from 'lexical';
 import { Spread } from 'libdefs/globals';
-import * as React from 'react';
+import React from 'react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 import EquationEditor from '../ui/EquationEditor';
