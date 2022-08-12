@@ -22,7 +22,7 @@ import {
   KEY_TAB_COMMAND,
 } from 'lexical';
 import {
-  startTransition,
+  // startTransition,
   useCallback,
   useEffect,
   useRef,
@@ -1016,16 +1016,16 @@ function useMentions(editor: LexicalEditor): JSX.Element {
       ) {
         const isRangePositioned = tryToPositionRange(match, range);
         if (isRangePositioned !== null) {
-          startTransition(() =>
+          // startTransition(() =>
             setResolution({
               match,
               range,
             })
-          );
+          // );
           return;
         }
       }
-      startTransition(() => setResolution(null));
+      setResolution(null) //startTransition(() => );
     };
 
     const removeUpdateListener = editor.registerUpdateListener(updateListener);
